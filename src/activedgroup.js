@@ -15,6 +15,20 @@ var Group = function(){
 
 Group.ATTRS = {
 	
+	/**
+	 * @event itemactived
+	 * 选项激活
+	 * @param {Object} ev 事件对象
+	 * @param {Object} ev.item 激活的子项
+	 */
+	
+
+	/**
+	 * @event itemunactived
+	 * 选项激活
+	 * @param {Object} ev 事件对象
+	 * @param {Object} ev.item 取消激活的子项
+	 */
 };
 
 Util.augment(Group,{
@@ -56,6 +70,7 @@ Util.augment(Group,{
 	 * @param  {Object} item 可激活的子项
 	 */
 	onActived : function(item){
+		this.fire('itemactived',{item: item});
 		this.fireUpGroup && this.fireUpGroup('actived',item);
 	},
 	/**
@@ -64,6 +79,7 @@ Util.augment(Group,{
 	 * @param  {Object} item 可激活的子项
 	 */
 	onUnActived : function(item){
+		this.fire('itemunactived',{item: item});
 		this.fireUpGroup && this.fireUpGroup('unactived',item);
 	},
 	/**
