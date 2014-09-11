@@ -1,8 +1,8 @@
 {
   "name": "achart-actived",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "actived mixins",
+  "keywords": ["achart","achart-actived"],
   "homepage": "https://github.com/acharts/achart-actived",
   "author": "dxq613",
   "repository": {
