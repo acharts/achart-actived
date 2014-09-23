@@ -92,7 +92,7 @@ Util.augment(Group,{
 		_self.clearActivedItem();
 		if(item && !_self.isItemActived(item)){
 			_self.setItemActived(item,true);
-			_self.onActived();
+			_self.onActived(item);
 		}
 		
 	},
