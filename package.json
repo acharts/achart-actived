@@ -1,6 +1,6 @@
 {
   "name": "achart-actived",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "actived mixins",
   "keywords": ["achart","achart-actived"],
   "homepage": "https://github.com/acharts/achart-actived",
@@ -20,7 +20,7 @@
     },
     "devDependencies": {
       "expect.js": "0.3.1",
-      "achart-canvas" : "~1.1.0"
+      "achart-canvas" : "~1.1.1"
     }
   }
 }
