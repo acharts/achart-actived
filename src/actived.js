@@ -7,7 +7,7 @@
 var Util = require('achart-util');
 
 /**
- * @protected
+ * @private
  * @class Chart.Actived
  * 控件可以被激活（active)的扩展
  *

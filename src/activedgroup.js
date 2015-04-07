@@ -6,7 +6,7 @@
 var Util = require('achart-util');
 /**
  * @class Chart.Actived.Group
- * @protected
+ * @private
  * 元素可以激活的容器扩展
  *
  *  - [使用文档](http://spmjs.io/docs/achart-actived/wiki/group.html)
